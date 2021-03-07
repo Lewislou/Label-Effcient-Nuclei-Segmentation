@@ -1,7 +1,6 @@
 # Implementation of our conditional single image GAN (CSinGAN)
 
 ## Getting started
----------------------------------------------------------------------------------------------------------
 ## **Training Data**
 **train.png**: the selected real patch
 **train_mask.png**: the corresponding mask for the real patch
