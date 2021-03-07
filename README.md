@@ -33,7 +33,7 @@ torch==1.4.0; torchvision==0.5.0 ; opencv
 python main_train.py
 
 ## Stage 3: Pseudo-label based MRCNN
-This Mask-rcnn code implementation is modified by Matterport's implementation of Mask-RCNN: https://github.com/matterport/Mask_RCNN. The evaluation code is modified for pseudo label prediction.
+This Mask-rcnn code implementation is modified by Matterport's implementation of Mask-RCNN: https://github.com/matterport/Mask_RCNN. The evaluation code is modified for pseudo label prediction. The environment dependencies and data strcture are following the same setting with Matterport's codes.
 
 ### **Pseudo-label.py**
-This code is to predict pseudo label for cropped image patches to perform semi-supervised learning. The pretrained model is trained by the synthesis images created by CSinGAN. And the unlabelled images with predicted pseudo labels can form new image paires for new MRCNN training.
+This code is to predict pseudo label for cropped image patches to perform semi-supervised learning. The pretrained model is trained by the synthesis images created by CSinGAN. And the unlabelled images with predicted pseudo labels can form new image paires for new MRCNN training. 
