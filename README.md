@@ -3,7 +3,7 @@ Official code implementation for paper 'Automatic Patch Selection for Label-Effc
 
 The whole framework consists of 3 stages: 1. patch selection 2. CSinGAN data augmentation 3. Pseudo-label based MRCNN
 
-## Consistency-based Patch Selection
+## Stage 1: Consistency-based Patch Selection
 
 ### **Data**
 The dataset that we used in this paper is the Monusg dataset: https://monuseg.grand-challenge.org/Data/.
@@ -17,7 +17,7 @@ The selected results are the folder names in '*data/*'. The tunable parameters a
 ### **Code**
 python consis_based.py
 
-## CSinGAN augmentation
+## Stage 2: CSinGAN augmentation
 ### **Training Data**
 **train.png**: the selected real patch
 
@@ -31,3 +31,5 @@ torch==1.4.0; torchvision==0.5.0 ; opencv
 
 ### **Training**
 python main_train.py
+
+## Stage 3: Pseudo-label based MRCNN
