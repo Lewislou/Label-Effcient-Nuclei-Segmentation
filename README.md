@@ -33,3 +33,4 @@ torch==1.4.0; torchvision==0.5.0 ; opencv
 python main_train.py
 
 ## Stage 3: Pseudo-label based MRCNN
+This Mask-rcnn code implementation is modified by Matterport's implementation of Mask-RCNN: https://github.com/matterport/Mask_RCNN. The evaluation code is modified for pseudo label prediction.
