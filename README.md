@@ -1,7 +1,7 @@
 # Label-Effcient-Nuclei-Segmentation
 Official code implementation for paper 'Automatic Patch Selection for Label-Effcient Nuclei Segmentation'
 
-The whole framework consists of 3 stages: 1. **patch selection** 2. **CSinGAN data augmentation** 3. **Pseudo-label based MRCNN**
+The whole framework consists of 3 stages: 1. **Patch selection** 2. **CSinGAN data augmentation** 3. **Pseudo-label based MRCNN**
 
 ## Stage 1: Consistency-based Patch Selection
 
