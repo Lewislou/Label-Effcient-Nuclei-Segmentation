@@ -1,0 +1,1 @@
+python random_samples.py --input_name cell_train.png --mode random_samples --gen_start_scale 0
