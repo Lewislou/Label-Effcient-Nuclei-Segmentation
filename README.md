@@ -4,6 +4,7 @@ Official code implementation for paper 'Automatic Patch Selection for Label-Effc
 The whole framework consists of 3 stages: 1. **Patch selection** 2. **CSinGAN data augmentation** 3. **Pseudo-label based MRCNN**
 
 ## Stage 1: Consistency-based Patch Selection
+In this stage, patches with representativity and consistency will be selected for data augmentation and semi-supervised segmentation.
 
 ### **Data**
 The dataset that we used in this paper is the Monusg dataset: https://monuseg.grand-challenge.org/Data/.
@@ -18,6 +19,8 @@ The selected results are the folder names in '*data/*'. The tunable parameters a
 python consis_based.py
 
 ## Stage 2: CSinGAN augmentation
+In stage 2, the random masks are synthesized by randomly permuting the nuclei positions in the selected patches' mask. Then the real pair and random masks are the inputs for CSinGAN.
+
 ### **Training Data**
 **train.png**: the selected real patch
 
