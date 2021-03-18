@@ -124,7 +124,6 @@ def res_model(model,path_crop,c):
                 batch = torch.cat([batch,img1],0)
         #print(batch.size())
         feature = extract_feature(model, batch)
-        #print(feature.shape)	# 打印出得到的tensor的shape
         feature = np.array(feature).reshape(feature.shape[0],2048)
         if i == 0:
             all_features = feature
