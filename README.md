@@ -19,8 +19,9 @@ In second-stage clustering, the 256\*256 patches are cropped into 128\*128 patch
 The selected results are the folder names in '*data/*'. The tunable parameters are K1, K2 which are the clutser numbers for 2 stages.
 
 ### **Code**
+```shell
 python consis_based.py
-
+```
 ## Stage 2: CSinGAN augmentation
 In stage 2, the random masks are synthesized by randomly permuting the nuclei positions in the selected patches' mask. Then the real pair and random masks are the inputs for CSinGAN.
 
@@ -33,11 +34,13 @@ In stage 2, the random masks are synthesized by randomly permuting the nuclei po
 
 ### **Code**
 ### **Dependencies**
+```shell
 torch==1.4.0; torchvision==0.5.0 ; opencv
-
+```
 ### **Training**
+```shell
 python main_train.py
-
+```
 ## Stage 3: Pseudo-label based MRCNN
 This Mask-rcnn code implementation is modified by Matterport's implementation of Mask-RCNN: https://github.com/matterport/Mask_RCNN. The evaluation code is modified for pseudo label prediction. The environment dependencies and data strcture are following the same setting with Matterport's codes.
 
