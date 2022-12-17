@@ -7,7 +7,10 @@ The whole framework consists of 3 stages: 1. **Patch selection** 2. **CSinGAN da
 In this stage, patches with representativity and consistency will be selected for data augmentation and semi-supervised segmentation.
 
 ### **Data**
-The dataset that we used in this paper is the Monusg dataset: https://monuseg.grand-challenge.org/Data/.
+The dataset that we used in this paper is the 
+[Kumar](https://ieeexplore.ieee.org/abstract/document/7872382)
+[Monusag](https://monuseg.grand-challenge.org/Data/);
+[TNBC]:(https://zenodo.org/record/1175282#.Y52VsHbP3b1) ;
 
 In first-stage clustering, the 1000\*1000 images are cropped into 256\*256 patches and stored in '*data/*'.
 
