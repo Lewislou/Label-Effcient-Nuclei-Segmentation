@@ -12,5 +12,8 @@
 ### **Dependencies**
 torch==1.4.0; torchvision==0.5.0 ; opencv
 
+### **Mask_synthesis**
+python mask_synthesis.py
+
 ### **Training**
 python main_train.py
