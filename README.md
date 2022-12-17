@@ -37,6 +37,10 @@ In stage 2, the random masks are synthesized by randomly permuting the nuclei po
 ```shell
 torch==1.4.0; torchvision==0.5.0 ; opencv
 ```
+### **Mask synthesis**
+```shell
+python mask_synthesis.py
+```
 ### **Training**
 ```shell
 python main_train.py
