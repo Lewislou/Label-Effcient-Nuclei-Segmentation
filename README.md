@@ -10,11 +10,11 @@ In this stage, patches with representativity and consistency will be selected fo
 The dataset that we used in this paper is the 
 [Kumar](https://ieeexplore.ieee.org/abstract/document/7872382)
 [Monusag](https://monuseg.grand-challenge.org/Data/);
-[TNBC]:(https://zenodo.org/record/1175282#.Y52VsHbP3b1) ;
+[TNBC](https://zenodo.org/record/1175282#.Y52VsHbP3b1) ;
 
-In first-stage clustering, the 1000\*1000 images are cropped into 256\*256 patches and stored in '*data/*'.
+In first-stage clustering, the images are cropped into 256\*256 patches and stored in '*data/*'.
 
-In second-stage clustering, the 256\*256 patches are cropped into 128\*128 patches and stored in '*data_30000_cut*'.
+In second-stage clustering, the 256\*256 patches are cropped into 128\*128 patches and stored in '*data_cut*'.
 
 The selected results are the folder names in '*data/*'. The tunable parameters are K1, K2 which are the clutser numbers for 2 stages.
 
