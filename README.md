@@ -1,5 +1,5 @@
 # Label-Effcient-Nuclei-Segmentation
-Official code implementation for paper 'Automatic Patch Selection for Label-Effcient Nuclei Segmentation'
+Official code implementation for paper 'Which Pixel to Annotate: a Label-Efficient Nuclei Segmentation Framework'
 
 The whole framework consists of 3 stages: 1. **Patch selection** 2. **CSinGAN data augmentation** 3. **Pseudo-label based MRCNN**
 
@@ -40,3 +40,18 @@ This Mask-rcnn code implementation is modified by Matterport's implementation of
 
 ### **Pseudo-label.py**
 This code is to predict pseudo label for cropped image patches to perform semi-supervised learning. The pretrained model is trained by the synthesis images created by CSinGAN. And the unlabelled images with predicted pseudo labels can form new image paires for new MRCNN training. 
+
+
+## Citation
+If you find this research useful in your work, please acknowledge it appropriately and cite the paper:
+```bibtex
+@ARTICLE{9946007,
+  author={Lou, Wei and Li, Haofeng and Li, Guanbin and Han, Xiaoguang and Wan, Xiang},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Which Pixel to Annotate: a Label-Efficient Nuclei Segmentation Framework}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2022.3221666}}
+```
