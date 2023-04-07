@@ -55,13 +55,11 @@ This code is to predict pseudo label for cropped image patches to perform semi-s
 ## Citation
 If you find this research useful in your work, please acknowledge it appropriately and cite the paper:
 ```bibtex
-@ARTICLE{9946007,
+@article{lou2022pixel,
+  title={Which Pixel to Annotate: a Label-Efficient Nuclei Segmentation Framework},
   author={Lou, Wei and Li, Haofeng and Li, Guanbin and Han, Xiaoguang and Wan, Xiang},
-  journal={IEEE Transactions on Medical Imaging}, 
-  title={Which Pixel to Annotate: a Label-Efficient Nuclei Segmentation Framework}, 
+  journal={IEEE Transactions on Medical Imaging},
   year={2022},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TMI.2022.3221666}}
+  publisher={IEEE}
+}
 ```
